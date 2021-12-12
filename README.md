@@ -30,6 +30,8 @@
 simple currency conversion based from the latest exchange rates.
 2. Same requirement applies
 
+<p align="right">(<a href="#top">back to top</a>)</p>
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
@@ -93,7 +95,6 @@ Install the following tools
 1. Open Qt Creator
 2. Open project for example: open -> path to project -> FrontEndApp.pro -> open
 3. Clicked on Build -> Run
-   ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
