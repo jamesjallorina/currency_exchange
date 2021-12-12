@@ -34,8 +34,8 @@ private slots:
 private:
     Ui::MainWindowx *ui;
     QString base_amount = "1";
-    QString base_code = "USD";
-    QString target_code = "PHP";
+    QString base_code = "PHP";
+    QString target_code = "USD";
 
 private:
     QTcpSocket* qsocket;
