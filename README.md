@@ -2,6 +2,15 @@
 <details>
   <summary>Table of Contents</summary>
   <ol>
+      <li>
+      <a href="#note-about-the-requirements">Note About The Requirements</a>
+      <ul>
+        <li><a href="#original-requirements">Original Requirements</a></li>
+      </ul>
+	  <ul>
+        <li><a href="#revised-requirements">Revised Requirements</a></li>
+      </ul>
+    </li>
     <li>
       <a href="#about-the-project">About The Project</a>
       <ul>
@@ -37,14 +46,14 @@ simple currency conversion based from the latest exchange rates.
 
 A simple currency exchange converter app.
 
-**backend**
+**Back-end**
 1. The back-end is created in python
 2. It accepts a simple string message request ("Amount/Base Currency/Target Currency")
 3. It then forms an http get request (e.g., https://v6.exchangerate-api.com/v6/64476c34684aa8f913d634c9/pair/USD/PHP)
 4. Then it sends the request to exchange currency api
 5. Once the response is receive it will then send the reply to the client app in the format of "Amount" + "Target Currency"
 
-**frontend**
+**Front-end**
 1. The front-end is created in Qt creator (cross-platform)
 2. It accepts an amount, base currency, and target currency from the user input
 3. When the user click the convert button
@@ -54,17 +63,12 @@ A simple currency exchange converter app.
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
-
-
 ### Built With
 
 * [Python](https://nextjs.org/)
 * [Qt Creator](https://www.qt.io/)
 
-
 <p align="right">(<a href="#top">back to top</a>)</p>
-
-
 
 <!-- GETTING STARTED -->
 ## Getting Started
